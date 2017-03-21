@@ -12,7 +12,7 @@ module.exports = {
     rules: [{
       test: /\.js$/,
       loader: 'babel-loader',
-      options: {presets: ['es2015', 'react']},
+      options: {presets: ['es2015', 'react', 'stage-1']},
       exclude: /node_modules/
     },{
       test: /\.css$/,
@@ -27,5 +27,9 @@ module.exports = {
         }
       }]
     }]
+  },
+  devServer: {
+    historyApiFallback: true,
+    contentBase: './'
   }
 }
