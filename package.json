@@ -1,0 +1,24 @@
+{
+  "name": "weather-redux",
+  "version": "1.0.0",
+  "description": "Building weather app with redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zylstraj/Weather-Redux.git"
+  },
+  "keywords": [
+    "React",
+    "Redux",
+    "React-Redux"
+  ],
+  "author": "jz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zylstraj/Weather-Redux/issues"
+  },
+  "homepage": "https://github.com/zylstraj/Weather-Redux#readme"
+}
